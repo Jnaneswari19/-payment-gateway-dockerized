@@ -1,0 +1,43 @@
+# === Java / Spring Boot ===
+target/
+*.jar
+*.war
+*.class
+
+# === Maven / Gradle ===
+.mvn/
+.gradle/
+build/
+
+# === Node.js / React / Webhook / SDK ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === Logs ===
+*.log
+logs/
+webhook.log
+
+# === OS / IDE files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# === Docker ===
+*.pid
+*.seed
+*.pid.lock
+
+# === Misc ===
+.env
+screenshots/
+
+node_modules/
+target/
+*.log
