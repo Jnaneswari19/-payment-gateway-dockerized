@@ -1,28 +1,21 @@
+version: '3'
 services:
   backend:
-    build:
-      context: ./backend/payment-backend
+    build: ./backend
     ports:
       - "8080:8080"
-    container_name: payment-backend
 
   frontend:
-    build:
-      context: ./frontend/payment-frontend
+    build: ./frontend
     ports:
       - "3000:3000"
-    container_name: payment-frontend
 
   webhook:
-    build:
-      context: ./webhook
+    build: ./webhook
     ports:
       - "8081:8081"
-    container_name: payment-webhook
 
   sdk:
-    build:
-      context: ./docs/sdk
+    build: ./sdk
     ports:
       - "8082:8082"
-    container_name: payment-sdk
