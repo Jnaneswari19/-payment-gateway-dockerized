@@ -36,7 +36,11 @@ Thumbs.db
 
 # === Misc ===
 .env
-screenshots/
+
+# Allow screenshots folder but ignore everything except .png files
+screenshots/*
+!screenshots/*.png
+
 
 node_modules/
 target/
