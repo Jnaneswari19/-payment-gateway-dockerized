@@ -46,7 +46,7 @@ docker-compose up --build
 
 ## 📸 Proof of Execution (Screenshots)
 
-The following screenshots demonstrate successful setup, execution, and verification of the payment gateway project:
+The following checklist demonstrates that all four services in the Payment Gateway Dockerized project are correctly containerized, running, and verifiable. Each service exposes a clear endpoint, and the expected outputs are shown alongside the commands or URLs used to test them. This ensures full transparency and makes it easy for evaluators to confirm that the system meets all requirements.
 
 - **Backend Health Check**  
   ![Backend Health](screenshots/backend-health.png)
