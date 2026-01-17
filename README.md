@@ -75,6 +75,14 @@ The following checklist demonstrates that all four services in the Payment Gatew
 - **Webhook Logs**  
   ![Webhook Logs](screenshots/webhook-logs.png)
 
+🖼️ Frontend, Backend, and SDK Running
+This screenshot confirms that the backend (port 8080), SDK (port 8082), and frontend (port 3000) services are running successfully via Docker Compose. The frontend has compiled without errors and is accessible at http://localhost:3000, while the backend and SDK endpoints are verified through logs and curl tests. This demonstrates that the multi-service architecture is live and functioning as expected.
+### 🖼️ Frontend, Backend, and SDK Running
+
+This screenshot confirms that the **backend (port 8080)**, **SDK (port 8082)**, and **frontend (port 3000)** services are running successfully via Docker Compose...
+
+![Frontend and Backend Running](screenshots/proof-frontend-backend-sdk.png)
+
 
 ## 📂 Project Structure
 ```
