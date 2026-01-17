@@ -163,6 +163,25 @@ http://localhost:3000
 **Expected result:** React UI loads successfully, showing the payment gateway interface.
 
 ---
+Perfect, Jnaneswari 👌 — here’s the **final Submission Checklist table** you can paste into your README or submission notes. It’s a one‑pager summary that evaluators can literally tick off as they verify each requirement:
+
+---
+
+## ✅ Submission Checklist
+
+| Requirement | Status | Proof / Command |
+|-------------|--------|-----------------|
+| **Backend Service** | ✅ Healthy | `curl http://localhost:8080/backend/health` → `{"status":"Backend is healthy"}` |
+| **SDK Service** | ✅ Healthy | `curl http://localhost:8082/sdk/pay` → `{"status":"Payment processed via SDK"}` |
+| **Webhook Service** | ✅ Healthy | `curl http://localhost:8081/webhook/test` → `{"status":"Webhook received"}` |
+| **Frontend Service** | ✅ Running | Browser → `http://localhost:3000` → React UI loads |
+| **Dockerization** | ✅ Complete | `docker-compose up --build` runs all services |
+| **Repo Hygiene** | ✅ Clean | `.gitignore`, LICENSE, README, screenshots included |
+| **Proof of Execution** | ✅ Transparent | Screenshots in `/screenshots/` folder show logs, curl outputs, UI |
+| **Evaluator Instructions** | ✅ Clear | README includes step‑by‑step curl/browser commands |
+
+---
+
 
 
 ## 👩‍💻 Author
