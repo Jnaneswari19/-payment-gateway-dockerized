@@ -118,6 +118,53 @@ payment-gateway-dockerized/
 
 ---
 
+
+## 🧪 Evaluator Instructions
+
+Follow these steps to verify that all services are running correctly:
+
+### 1. Start the project
+```bash
+docker-compose up --build
+```
+
+### 2. Verify backend health
+```bash
+curl http://localhost:8080/backend/health
+```
+**Expected output:**
+```json
+{"status":"Backend is healthy"}
+```
+
+### 3. Verify SDK service
+```bash
+curl http://localhost:8082/sdk/pay
+```
+**Expected output:**
+```json
+{"status":"Payment processed via SDK"}
+```
+
+### 4. Verify webhook service
+```bash
+curl http://localhost:8081/webhook/test
+```
+**Expected output:**
+```json
+{"status":"Webhook received"}
+```
+
+### 5. Verify frontend
+Open a browser and go to:
+```
+http://localhost:3000
+```
+**Expected result:** React UI loads successfully, showing the payment gateway interface.
+
+---
+
+
 ## 👩‍💻 Author
 **Jnaneswari**  
 Ambitious backend engineer passionate about reproducible setups, repo polish, and evaluator‑friendly workflows.
