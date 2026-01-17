@@ -1,0 +1,27 @@
+{
+  "name": "payment-gateway-dockerized",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jnaneswari19/payment-gateway-dockerized.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jnaneswari19/payment-gateway-dockerized/issues"
+  },
+  "homepage": "https://github.com/Jnaneswari19/payment-gateway-dockerized#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
